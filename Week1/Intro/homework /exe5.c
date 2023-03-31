@@ -5,6 +5,9 @@ int main() {
     int nr, last, first;
     printf("\nEnter a number:");
     scanf("%d", &nr);
+    if(nr<0){
+        nr*=-1;
+    }
     last = nr % 10;
     first = nr;
     do {
