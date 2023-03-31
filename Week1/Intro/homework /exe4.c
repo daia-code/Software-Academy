@@ -5,7 +5,7 @@ int main() {
     int no;
     printf("\nGive a number:");
     scanf("%d", &no);
-    for (int i = 1; i <= 10; ++i) {
+    for (int i = 0; i <= 10; ++i) {
         printf("\n%d * %d = %d", i, no, i * no);
 
     }
