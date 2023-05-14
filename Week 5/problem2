@@ -1,0 +1,11 @@
+/*
+Consider an 8 bits ADC.This ADC measures a voltage signal that can have values from 0 to 8V. One of its measurements returns 0010 1010. What is the voltage value measured in this case?
+  
+1.Transform the input from digital (binary) to analog (decimal).
+ 0010 1010= 2+8+32=42
+2. Voutput =  input/ 2^n * Vref (RefVoltage means maximum value of ADC voltage)
+42=8input /256
+input=1344
+RefVoltage means maximum value of ADC voltage
+
+*/
