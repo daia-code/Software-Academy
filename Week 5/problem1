@@ -1,0 +1,14 @@
+/*
+Consider an 8 bits ADC.
+This ADC measures a voltage signal that can have values from 0 to 12 V. 
+One of its measurements returns 0001 1100. What is the voltage value measured in this case?
+  RefVoltage means maximum value of ADC voltage
+ 
+1.Transform the input from digital (binary) to analog (decimal).
+ 0001 1100=4+8+16=28
+2. Voutput = ( input/ 2^n) * Vref (RefVoltage means maximum value of ADC voltage), 
+28 = (12 input /256)   
+input= 597,3
+ n number of ADC bits
+
+*/
